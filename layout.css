@@ -2,18 +2,23 @@ html {
   font-size: 62.5%;
 }
 
-main {
-  margin-block-start: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+body {
+  font-size: 2rem;
+  background: #ecf4fb;
 }
 
-main > * {
+.img-gallery {
+  width: 80%;
+  margin: 10rem auto 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 3rem;
+}
+.img-gallery img {
+  width: 100%;
 }
 
-img {
-  margin: 1rem;
-  max-width: 20%;
+.img-gallery img:hover {
+  transform: scale(0.8) rotate(-10deg);
+  border-radius: 2rem;
 }
