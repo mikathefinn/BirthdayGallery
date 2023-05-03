@@ -4,7 +4,12 @@ html {
 
 body {
   font-size: 2rem;
-  background: #ecf4fb;
+
+  background: url(images/bgimg2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .img-gallery {
