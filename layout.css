@@ -22,7 +22,7 @@ body {
 }
 
 .img-gallery img:hover {
-  transform: scale(0.8) rotate(-7deg);
+  transform: scale(1.1) rotate(-7deg);
   border-radius: 2rem;
   box-shadow: 0.5rem 2rem 7rem rgba(45, 55, 115, 0.4);
 }
