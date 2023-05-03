@@ -22,7 +22,7 @@ body {
 }
 
 .img-gallery img:hover {
-  transform: scale(0.8) rotate(-15deg);
+  transform: scale(0.8) rotate(-7deg);
   border-radius: 2rem;
   box-shadow: 0.5rem 2rem 7rem rgba(45, 55, 115, 0.4);
 }
@@ -34,9 +34,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+  z-index: 100;
 }
 
 .largeimg img {
