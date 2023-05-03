@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+main {
+  margin-block-start: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main > * {
+}
+
+img {
+  margin: 1rem;
+  max-width: 20%;
+}
